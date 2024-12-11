@@ -41,7 +41,7 @@ const HomePage = () => {
         </SimpleGrid>
 
 
-        {products.lenght === 0 && (
+        {products.length === 0 && (
           <Text fontSize="2xl" textAlign={"center"} fontWeight={"bold"} color={'gray.500'}>
           No Products found: {" "}
           <Link to={"/create"}>
